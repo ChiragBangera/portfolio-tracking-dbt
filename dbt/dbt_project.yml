@@ -1,0 +1,7 @@
+name: "portfolio_tracking"
+version: "1.0.0"
+profile: "portfolio_tracking"
+model-paths: ["models"]
+models:
+  portfolio_tracking:
+    +materialized: table

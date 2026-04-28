@@ -1,0 +1,9 @@
+.venv/
+logs/
+target/
+*.duckdb
+*.duckdb.wal
+*.duckdb.yml
+
+
+profiles.yml

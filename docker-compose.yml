@@ -1,0 +1,9 @@
+services:
+  dbt:
+    build: .
+    container_name: dbt-duckdb
+    volumes:
+      - ./dbt:/dbt
+    working_dir: /dbt
+    stdin_open: true
+    tty: true
