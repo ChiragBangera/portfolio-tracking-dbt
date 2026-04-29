@@ -1,0 +1,6 @@
+version: 2
+sources:
+  - name: abc_bank
+    schema: positions
+    tables:
+      - name: ABC_BANK_POSITIONS
